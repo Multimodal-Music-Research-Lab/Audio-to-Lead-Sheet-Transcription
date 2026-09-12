@@ -54,11 +54,12 @@ conda activate a2ls
 pip install -r requirements.txt
 ```
 
-The four retrained checkpoints (no-lyrics, syllable, character, BPE) are too heavy
-to commit; download them and place them in `code/weights/`:
+The retrained checkpoints (no-lyrics, syllable, character, BPE) are too heavy to
+commit; download them from the Hugging Face Hub and place them in
+`code/weights/`:
 
 ```bash
-hf download <repo-id> --local-dir code/weights
+hf download MMR-Lab/SheetSage-A2LS --local-dir code/weights
 ```
 
 ## Usage
@@ -66,11 +67,11 @@ hf download <repo-id> --local-dir code/weights
 ### 1. Inference
 
 Greedily decode the test split of the bundled 100-sample dataset
-(`data/a2ls-100`) and export `paper_metrics`-compatible Kern predictions:
+(`data/a2ls-100`) and export `metrics.py`-compatible Kern predictions:
 
 ```bash
 cd code
-python paper_inference.py \
+python inference.py \
     --checkpoint_path weights/final_no_lyrics_augmented.ckpt \
     --ds_location ../data/a2ls-100 \
     --output_dir ../predictions/no-lyrics \
@@ -87,7 +88,7 @@ Compare a prediction folder against the ground-truth lead sheets:
 
 ```bash
 cd code
-python paper_metrics.py \
+python metrics.py \
     --pred_kern_path ../predictions/no-lyrics \
     --ref_kern_path ../data/kern
 ```
@@ -157,7 +158,7 @@ split (seed 42) and pre-computed MuQ features, one row per test sample:
 
 | column        | content                             |
 | ------------- | ----------------------------------- |
-| `file_name`   | Hooktheory record ID                |
+| `file_name`   | SheetSage record ID                 |
 | `features`    | pre-computed MuQ features           |
 | `beat_onsets` | beat onset times in seconds         |
 | `length`      | number of feature frames            |
@@ -173,8 +174,8 @@ in `krn/`.
 
 ```
 ├── code/                      # Inference, evaluation and alignment code
-│   ├── paper_inference.py     #   greedy inference for the retrained models
-│   ├── paper_metrics.py       #   per-file metric computation
+│   ├── inference.py     #   greedy inference for the retrained models
+│   ├── metrics.py       #   per-file metric computation
 │   ├── compute_per_sample_metrics.py  # per-sample metrics used by the demo site
 │   ├── add_aligned_lyrics_to_kern.py  # append an aligned **text spine to Kern files
 │   ├── convert_kern_to_mei.py #   Kern -> MEI for the demo website
