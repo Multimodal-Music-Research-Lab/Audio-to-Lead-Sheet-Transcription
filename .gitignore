@@ -1,0 +1,9 @@
+# Model checkpoints are too heavy for git; download them into code/weights/
+code/weights/*.ckpt
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+wandb/
+.DS_Store
+joblib_cache
