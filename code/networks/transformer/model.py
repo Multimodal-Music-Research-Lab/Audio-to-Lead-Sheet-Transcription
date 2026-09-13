@@ -1,6 +1,4 @@
-import torch
 from lightning.pytorch import LightningModule
-
 from my_utils.consts import PREPROCESSED_MUQ_ENCODER
 from networks.transformer.decoder import Decoder
 from networks.transformer.muq_encoder import MuqEncoderPreprocessed
