@@ -64,7 +64,7 @@ hf download MMR-Lab/SheetSage-A2LS --local-dir code/weights
 
 ## Usage
 
-### 1. Inference
+### 1-A. End-to-End inference
 
 Greedily decode the test split of the bundled 100-sample dataset
 (`data/a2ls-100`) and export `metrics.py`-compatible Kern predictions:
@@ -72,37 +72,19 @@ Greedily decode the test split of the bundled 100-sample dataset
 ```bash
 cd code
 python inference.py \
-    --checkpoint_path weights/final_no_lyrics_augmented.ckpt \
+    --checkpoint_path weights/final_char_augmented.ckpt \
     --ds_location ../data/a2ls-100 \
-    --output_dir ../predictions/no-lyrics \
-    --lyrics_tokeniser none
+    --output_dir ../predictions/character \
+    --lyrics_tokeniser character
 ```
 
 Valid `--lyrics_tokeniser` values: `none`, `syllable`, `character`, `bpe`
 (must match the tokeniser the checkpoint was trained with). Full-test-set runs
 simply point `--ds_location` to the complete dataset.
 
-### 2. Metrics
+### 1-B. Modular systems
 
-Compare a prediction folder against the ground-truth lead sheets:
-
-```bash
-cd code
-python metrics.py \
-    --pred_kern_path ../predictions/no-lyrics \
-    --ref_kern_path ../data/kern
-```
-
-Per-sample error rates (used by the demo website) are computed with:
-
-```bash
-python compute_per_sample_metrics.py \
-    --krn-dir ../krn --ref-dir ../data/kern --output ../metrics
-```
-
-### 3. Modular lyrics alignment (KLA)
-
-The lyrics shown on the demo site are produced by transcribing the audio with
+The modular approaches first transcribe the audio with
 ASR systems (Qwen3-ASR via wav2vec2 character timestamps, or SoulXSinger),
 syllabifying and aligning the syllables to the ground-truth notes, and appending
 a `**text` spine to the lyric-free Kern files:
@@ -133,22 +115,22 @@ python add_aligned_lyrics_to_kern.py \
 The alignment inputs/outputs shipped in `data/alignments/` cover the 100 demo
 samples; the same commands were used on the full test set.
 
-### 4. Demo website
+### 2. Metrics
 
-The site (`index.html`) renders the scores in `krn/` live in the browser with
-[Verovio](https://www.verovio.org/). Because the Verovio WASM build cannot import
-Humdrum data, the Kern files are converted to MEI once with:
+Compare a prediction folder against the ground-truth lead sheets:
 
 ```bash
-python code/convert_kern_to_mei.py --krn-dir krn --output-dir mei
-python code/make_samples_json.py
+cd code
+python metrics.py \
+    --pred_kern_path ../predictions/character \
+    --ref_kern_path ../data/kern
 ```
 
-To preview the site locally:
+Per-sample error rates (used by the demo website) are computed with:
 
 ```bash
-python -m http.server 8000   # from the repository root
-# open http://localhost:8000
+python compute_per_sample_metrics.py \
+    --krn-dir ../krn --ref-dir ../data/kern --output ../metrics
 ```
 
 ## Data
