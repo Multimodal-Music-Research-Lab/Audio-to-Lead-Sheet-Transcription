@@ -1,0 +1,1015 @@
+{
+ "prediction": false,
+ "summary": {
+  "sym-er": 3.21,
+  "char-er": 4.83,
+  "melody_sym_er": 0.0,
+  "chords_sym_er": 0.0,
+  "lyrics_sym_er": 18.13,
+  "melody_char_er": 0.0,
+  "chords_char_er": 0.0,
+  "lyrics_char_er": 13.76
+ },
+ "samples": {
+  "AQodVdrrgDl": {
+   "sym-er": 1.06,
+   "char-er": 1.24,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 6.35,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.67
+  },
+  "AQodyJeqmDl": {
+   "sym-er": 5.06,
+   "char-er": 5.4,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 30.36,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 25.98
+  },
+  "AaoGKaAEoeQ": {
+   "sym-er": 2.34,
+   "char-er": 4.06,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 13.0,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 12.31
+  },
+  "AaoGyA_PgeQ": {
+   "sym-er": 4.86,
+   "char-er": 6.18,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 27.08,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 13.77
+  },
+  "AaoGyqjPgeQ": {
+   "sym-er": 2.78,
+   "char-er": 2.96,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 16.67,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.67
+  },
+  "AaoGzyNzxeQ": {
+   "sym-er": 3.23,
+   "char-er": 5.5,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 19.35,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 15.29
+  },
+  "Abm_D-azgak": {
+   "sym-er": 0.72,
+   "char-er": 0.44,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 4.35,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 2.04
+  },
+  "Abm_dbDJgak": {
+   "sym-er": 8.04,
+   "char-er": 13.63,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 43.75,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 38.75
+  },
+  "AnLgaDQdmYp": {
+   "sym-er": 1.94,
+   "char-er": 1.69,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 11.63,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.18
+  },
+  "DpgvDvXLoad": {
+   "sym-er": 4.4,
+   "char-er": 7.35,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 24.53,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 24.14
+  },
+  "Dpgvap-Dmad": {
+   "sym-er": 1.92,
+   "char-er": 2.65,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 11.54,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 10.77
+  },
+  "DpgvdaKeoad": {
+   "sym-er": 1.16,
+   "char-er": 1.46,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 6.93,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.57
+  },
+  "DpgvqBbBmad": {
+   "sym-er": 2.49,
+   "char-er": 2.62,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 14.93,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 10.49
+  },
+  "JNgqAGBngrz": {
+   "sym-er": 1.68,
+   "char-er": 3.47,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 10.1,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.67
+  },
+  "JNgqAkzrgrz": {
+   "sym-er": 3.45,
+   "char-er": 8.29,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 20.69,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 19.55
+  },
+  "JNgqO-QXorz": {
+   "sym-er": 7.43,
+   "char-er": 16.1,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 44.55,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 61.54
+  },
+  "JkmZBdpPmqn": {
+   "sym-er": 1.52,
+   "char-er": 1.19,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 9.09,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 4.2
+  },
+  "JkmZBnwPmqn": {
+   "sym-er": 8.22,
+   "char-er": 15.01,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 46.58,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 39.88
+  },
+  "JkmZvnW_mqn": {
+   "sym-er": 0.89,
+   "char-er": 0.48,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 5.36,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 2.13
+  },
+  "KexEbLyLo_B": {
+   "sym-er": 2.42,
+   "char-er": 3.18,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 14.55,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.76
+  },
+  "LAgQBEXexyO": {
+   "sym-er": 3.14,
+   "char-er": 3.63,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 18.82,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 15.32
+  },
+  "LAgQBYzAxyO": {
+   "sym-er": 3.1,
+   "char-er": 2.44,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 18.57,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.52
+  },
+  "QLgnMMJ_m-V": {
+   "sym-er": 2.89,
+   "char-er": 4.26,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 17.33,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 13.79
+  },
+  "ROmNGAqEgNw": {
+   "sym-er": 2.02,
+   "char-er": 1.33,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 12.15,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.81
+  },
+  "ROmNQwMjoNw": {
+   "sym-er": 3.03,
+   "char-er": 4.08,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 18.18,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 15.11
+  },
+  "ROmNWyJngNw": {
+   "sym-er": 3.45,
+   "char-er": 3.8,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 20.69,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 12.32
+  },
+  "ROmNeAwnoNw": {
+   "sym-er": 4.31,
+   "char-er": 7.08,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 22.41,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 14.29
+  },
+  "ROmNzXnBmNw": {
+   "sym-er": 9.82,
+   "char-er": 21.11,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 45.21,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 32.12
+  },
+  "Rzoj-MeLxDe": {
+   "sym-er": 11.38,
+   "char-er": 22.57,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 34.92,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 23.49
+  },
+  "Rzoj-OOQxDe": {
+   "sym-er": 4.94,
+   "char-er": 8.75,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 29.65,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 34.9
+  },
+  "RzojB-wMoDe": {
+   "sym-er": 4.87,
+   "char-er": 8.83,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 23.38,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 23.45
+  },
+  "RzojElDMxDe": {
+   "sym-er": 2.02,
+   "char-er": 1.33,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 12.12,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.67
+  },
+  "VMgJRv_kgqK": {
+   "sym-er": 7.25,
+   "char-er": 14.67,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 26.09,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 14.84
+  },
+  "VMgJWbqWxqK": {
+   "sym-er": 1.88,
+   "char-er": 2.54,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 11.29,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.52
+  },
+  "VMgJkMJkxqK": {
+   "sym-er": 2.08,
+   "char-er": 2.23,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 12.5,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 8.26
+  },
+  "VMgJkPqWxqK": {
+   "sym-er": 0.81,
+   "char-er": 0.47,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 4.84,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 1.81
+  },
+  "VMgJkdGWxqK": {
+   "sym-er": 2.15,
+   "char-er": 4.01,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 9.68,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.02
+  },
+  "VMgJqKAEmqK": {
+   "sym-er": 3.61,
+   "char-er": 5.57,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 21.67,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 13.1
+  },
+  "Wegl_WYJmrY": {
+   "sym-er": 1.56,
+   "char-er": 1.66,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 9.38,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.52
+  },
+  "Wegl_lMamrY": {
+   "sym-er": 2.38,
+   "char-er": 3.36,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 14.29,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 12.58
+  },
+  "Wegl_zY-mrY": {
+   "sym-er": 2.5,
+   "char-er": 3.37,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 15.0,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 15.14
+  },
+  "WegldzMYgrY": {
+   "sym-er": 3.59,
+   "char-er": 3.55,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 21.57,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 10.53
+  },
+  "YAg-E-nwgle": {
+   "sym-er": 3.14,
+   "char-er": 4.94,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 18.82,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 16.44
+  },
+  "YAg-KavVole": {
+   "sym-er": 0.93,
+   "char-er": 0.98,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 5.56,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 4.15
+  },
+  "YAg-_kLwole": {
+   "sym-er": 2.24,
+   "char-er": 2.73,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 13.41,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 8.57
+  },
+  "YRzojjlQoDe": {
+   "sym-er": 2.71,
+   "char-er": 2.05,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 16.28,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 8.41
+  },
+  "ZOxVXJVGmdq": {
+   "sym-er": 3.42,
+   "char-er": 4.57,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 20.51,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 16.19
+  },
+  "ZOxVv-Yyxdq": {
+   "sym-er": 5.17,
+   "char-er": 7.17,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 31.03,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 26.87
+  },
+  "ZbgOazj-onY": {
+   "sym-er": 2.85,
+   "char-er": 3.99,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 15.79,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 11.22
+  },
+  "ZwxKbZXGged": {
+   "sym-er": 2.81,
+   "char-er": 6.02,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 16.84,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 17.96
+  },
+  "ZwxKbarVged": {
+   "sym-er": 2.29,
+   "char-er": 3.12,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 13.73,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.99
+  },
+  "ZwxKqj-jmed": {
+   "sym-er": 1.88,
+   "char-er": 2.47,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 11.29,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.72
+  },
+  "bWgMPWOjmlX": {
+   "sym-er": 2.78,
+   "char-er": 3.88,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 15.48,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 7.54
+  },
+  "dPoDPvOBonM": {
+   "sym-er": 1.93,
+   "char-er": 2.18,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 10.74,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.78
+  },
+  "dPoDqRElmnM": {
+   "sym-er": 1.69,
+   "char-er": 1.26,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 10.14,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 4.95
+  },
+  "dVMgJwXExqK": {
+   "sym-er": 2.45,
+   "char-er": 1.37,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 14.71,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.49
+  },
+  "d_gwAOwboGV": {
+   "sym-er": 3.38,
+   "char-er": 6.07,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 15.19,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 11.06
+  },
+  "d_gwBjVVmGV": {
+   "sym-er": 4.94,
+   "char-er": 8.16,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 29.63,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 22.38
+  },
+  "d_gwEDwMoGV": {
+   "sym-er": 3.99,
+   "char-er": 6.06,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 23.94,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 21.43
+  },
+  "d_gwj-PVmGV": {
+   "sym-er": 3.33,
+   "char-er": 6.55,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 16.0,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.85
+  },
+  "d_gwkW-KgGV": {
+   "sym-er": 3.41,
+   "char-er": 4.78,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 20.45,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 15.76
+  },
+  "eWxLqpN_oaK": {
+   "sym-er": 7.73,
+   "char-er": 6.74,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 46.38,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 25.71
+  },
+  "eWxLyvVEoaK": {
+   "sym-er": 2.96,
+   "char-er": 3.57,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 17.74,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 12.84
+  },
+  "jDgXNEDNoKl": {
+   "sym-er": 1.89,
+   "char-er": 1.78,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 11.32,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 8.26
+  },
+  "jDgXOwGNmKl": {
+   "sym-er": 3.46,
+   "char-er": 6.55,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 19.26,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 16.41
+  },
+  "jDgXj-jeoKl": {
+   "sym-er": 3.21,
+   "char-er": 4.21,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 19.23,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 11.27
+  },
+  "kjDgXdp_gKl": {
+   "sym-er": 2.33,
+   "char-er": 2.43,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 14.0,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.24
+  },
+  "kwxANqvXoKG": {
+   "sym-er": 2.73,
+   "char-er": 4.24,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 16.39,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 15.03
+  },
+  "kwxAYwMLxKG": {
+   "sym-er": 3.4,
+   "char-er": 4.03,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 20.37,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 14.84
+  },
+  "kwxAaAGAxKG": {
+   "sym-er": 2.26,
+   "char-er": 1.7,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 13.54,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 7.05
+  },
+  "kwxAaVGXxKG": {
+   "sym-er": 2.59,
+   "char-er": 3.43,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 15.52,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 14.17
+  },
+  "kygz-XNnmKB": {
+   "sym-er": 1.33,
+   "char-er": 2.01,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 8.0,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.27
+  },
+  "kygz-erzmKB": {
+   "sym-er": 1.45,
+   "char-er": 1.28,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 8.7,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.5
+  },
+  "l_NgbbpYgQA": {
+   "sym-er": 2.61,
+   "char-er": 3.46,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 15.69,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 10.87
+  },
+  "lamkzejYoDM": {
+   "sym-er": 3.64,
+   "char-er": 6.97,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 21.82,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 21.77
+  },
+  "nJmBB_JbmAV": {
+   "sym-er": 4.71,
+   "char-er": 6.92,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 28.26,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 12.41
+  },
+  "nJmBKAbWgAV": {
+   "sym-er": 3.86,
+   "char-er": 4.38,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 23.16,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 10.7
+  },
+  "nJmBjyPXmAV": {
+   "sym-er": 1.64,
+   "char-er": 1.97,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 9.84,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.4
+  },
+  "nLgaJwa_xYp": {
+   "sym-er": 5.56,
+   "char-er": 10.43,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 33.33,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 28.26
+  },
+  "nLgaXDJzmYp": {
+   "sym-er": 0.98,
+   "char-er": 1.0,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 5.88,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 3.85
+  },
+  "nLgaXMMBmYp": {
+   "sym-er": 3.61,
+   "char-er": 6.0,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 21.69,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 21.64
+  },
+  "nLgaXZqGmYp": {
+   "sym-er": 4.66,
+   "char-er": 8.28,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 27.94,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 32.26
+  },
+  "nLgaeXzzgYp": {
+   "sym-er": 3.46,
+   "char-er": 3.77,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 20.75,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 13.76
+  },
+  "nZgWAwdVory": {
+   "sym-er": 2.25,
+   "char-er": 1.54,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 13.51,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 7.32
+  },
+  "nZgWneqEmry": {
+   "sym-er": 1.61,
+   "char-er": 1.24,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 9.68,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.33
+  },
+  "nvgyAW-XgkA": {
+   "sym-er": 1.38,
+   "char-er": 1.6,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 8.26,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 6.25
+  },
+  "nvgyJnLrxkA": {
+   "sym-er": 1.23,
+   "char-er": 1.92,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 7.35,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.7
+  },
+  "pJkmZKp_gqn": {
+   "sym-er": 3.06,
+   "char-er": 4.5,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 18.37,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 16.1
+  },
+  "veoYqNWjodn": {
+   "sym-er": 1.49,
+   "char-er": 1.7,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 8.93,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 7.75
+  },
+  "wDpgv-Wamad": {
+   "sym-er": 6.36,
+   "char-er": 10.58,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 32.2,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 20.23
+  },
+  "yvgPGzYYmYq": {
+   "sym-er": 5.24,
+   "char-er": 8.25,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 31.43,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 34.38
+  },
+  "yvgPkeqXmYq": {
+   "sym-er": 2.59,
+   "char-er": 3.95,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 15.56,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.4
+  },
+  "yvmrALZvoOW": {
+   "sym-er": 5.07,
+   "char-er": 11.79,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 28.26,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 20.2
+  },
+  "yvmrAMdzoOW": {
+   "sym-er": 1.73,
+   "char-er": 2.12,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 10.39,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 8.46
+  },
+  "yvmr_NvZgOW": {
+   "sym-er": 1.83,
+   "char-er": 1.9,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 10.96,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 5.88
+  },
+  "yvmrdWnZxOW": {
+   "sym-er": 2.36,
+   "char-er": 3.38,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 14.13,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 10.55
+  },
+  "yvmrqREvoOW": {
+   "sym-er": 1.6,
+   "char-er": 2.2,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 9.62,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.09
+  },
+  "zngRAQLMmJj": {
+   "sym-er": 1.39,
+   "char-er": 1.21,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 8.33,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 4.76
+  },
+  "zngRJJYegJj": {
+   "sym-er": 1.85,
+   "char-er": 4.73,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 11.11,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 9.41
+  },
+  "zngRwWwMxJj": {
+   "sym-er": 5.86,
+   "char-er": 13.03,
+   "melody_sym_er": 0.0,
+   "chords_sym_er": 0.0,
+   "lyrics_sym_er": 35.19,
+   "melody_char_er": 0.0,
+   "chords_char_er": 0.0,
+   "lyrics_char_er": 30.83
+  }
+ }
+}
