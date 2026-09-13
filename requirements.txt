@@ -31,7 +31,8 @@ tqdm
 fire
 wandb
 
-# --- Lyric vocabulary expansion ---
+# --- Lyric vocabulary expansion / syllabification ---
 cmudict
 g2p-en
+inflect
 pyphen
