@@ -115,7 +115,26 @@ simply point `--ds_location` to the complete dataset.
 The modular approaches first transcribe the audio with
 ASR systems (Qwen3-ASR via wav2vec2 character timestamps, or SoulXSinger),
 syllabifying and aligning the syllables to the ground-truth notes, and appending
-a `**text` spine to the lyric-free Kern files:
+a `**text` spine to the lyric-free Kern files.
+
+Start from lyric-free Kern predictions (for example from the `cummins_retrained`
+checkpoint with `--lyrics_tokeniser none`) and export their note onsets as a
+timestamped transcript. The beat onsets come from the ground-truth annotation
+JSON, and the lyric reference supplies the placeholder tokens that the aligners
+later replace with syllables:
+
+```bash
+cd code
+python export_kern_timestamped_transcripts.py \
+    --kern-files ../predictions/no-lyrics/*.krn \
+    --beat-onsets-json ../data/alignments/GT-word-timestamps-100.json \
+    --lyric-reference ../data/alignments/GT-word-timestamps-100.json \
+    --output ../data/alignments/no-lyrics-timestamps.json
+```
+
+This writes `no-lyrics-timestamps.json` plus a `-with_rest` variant, in the same
+format as the files the aligners consume. Then align the ASR syllables to those
+notes and append the `**text` spine:
 
 ```bash
 cd code
@@ -170,6 +189,7 @@ python compute_per_sample_metrics.py \
 │   ├── metrics.py       #   per-file metric computation
 │   ├── compute_per_sample_metrics.py  # per-sample metrics used by the demo site
 │   ├── add_aligned_lyrics_to_kern.py  # append an aligned **text spine to Kern files
+│   ├── export_kern_timestamped_transcripts.py  # beat-aligned lyric cells from Kern files
 │   ├── convert_kern_to_mei.py #   Kern -> MEI for the demo website
 │   ├── make_samples_json.py   #   regenerate data/samples.json
 │   ├── my_utils/, networks/   #   model and tokeniser code
