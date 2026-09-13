@@ -61,6 +61,35 @@ Hugging Face Hub and place them in `code/weights/`:
 hf download MMR-Lab/SheetSage-A2LS --local-dir code/weights
 ```
 
+## Data
+
+`data/a2ls-100` is a Hugging Face dataset with 100 random samples of the test
+split (seed 42) and pre-computed MuQ features, one row per test sample:
+
+| column        | content                             |
+| ------------- | ----------------------------------- |
+| `file_name`   | SheetSage record ID                 |
+| `features`    | pre-computed MuQ features           |
+| `beat_onsets` | beat onset times in seconds         |
+| `length`      | number of feature frames            |
+| `transcript`  | reference token sequence            |
+| `kern`        | ground-truth lead sheet in `**kern` |
+
+The same 100 ground-truth lead sheets are also stored as plain files in
+`data/kern/` (with lyrics) and `data/kern-without-lyrics/` (without the lyric
+spine). The corresponding generations from every model compared in the paper are
+in `krn/`.
+
+The dataset is also hosted on the Hugging Face Hub at
+[MMR-Lab/SheetSage-A2LS-subset100](https://huggingface.co/datasets/MMR-Lab/SheetSage-A2LS-subset100).
+To download it directly instead of cloning this repository:
+
+```bash
+hf download MMR-Lab/SheetSage-A2LS-subset100 \
+    --repo-type dataset \
+    --local-dir data/a2ls-100
+```
+
 ## Usage
 
 ### 1-A. End-to-End inference
@@ -132,34 +161,6 @@ python compute_per_sample_metrics.py \
     --krn-dir ../krn --ref-dir ../data/kern --output ../metrics
 ```
 
-## Data
-
-`data/a2ls-100` is a Hugging Face dataset with 100 random samples of the test
-split (seed 42) and pre-computed MuQ features, one row per test sample:
-
-| column        | content                             |
-| ------------- | ----------------------------------- |
-| `file_name`   | SheetSage record ID                 |
-| `features`    | pre-computed MuQ features           |
-| `beat_onsets` | beat onset times in seconds         |
-| `length`      | number of feature frames            |
-| `transcript`  | reference token sequence            |
-| `kern`        | ground-truth lead sheet in `**kern` |
-
-The same 100 ground-truth lead sheets are also stored as plain files in
-`data/kern/` (with lyrics) and `data/kern-without-lyrics/` (without the lyric
-spine). The corresponding generations from every model compared in the paper are
-in `krn/`.
-
-The dataset is also hosted on the Hugging Face Hub at
-[MMR-Lab/SheetSage-A2LS-test-100](https://huggingface.co/datasets/MMR-Lab/SheetSage-A2LS-test-100).
-To download it directly instead of cloning this repository:
-
-```bash
-hf download MMR-Lab/SheetSage-A2LS-test-100 \
-    --repo-type dataset \
-    --local-dir data/a2ls-100
-```
 
 ## Repository layout
 

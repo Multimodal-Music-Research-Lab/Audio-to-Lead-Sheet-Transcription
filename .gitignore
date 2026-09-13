@@ -1,5 +1,6 @@
 # Model checkpoints are too heavy for git; download them into code/weights/
 code/weights/*.ckpt
+data/a2ls-100/
 
 __pycache__/
 *.py[cod]
