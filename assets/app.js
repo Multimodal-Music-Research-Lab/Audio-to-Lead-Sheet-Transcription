@@ -5,16 +5,28 @@ import createVerovioModule from "./verovio/verovio-module.mjs";
 
 "use strict";
 
-const MODELS = [
-  { id: "gt-with-qwen-lyrics", label: "Ground truth + Qwen3-ASR lyrics", prediction: false },
-  { id: "gt-with-soulx-lyrics", label: "Ground truth + SoulXSinger lyrics", prediction: false },
-  { id: "no-lyrics-qwen-lyrics", label: "No-lyrics model + aligned Qwen lyrics", prediction: true },
-  { id: "syllable", label: "Syllable model", prediction: true },
-  { id: "character", label: "Character model", prediction: true },
-  { id: "bpe", label: "BPE model", prediction: true },
-  { id: "eoin-with-lyrics", label: "Baseline model (with lyrics)", prediction: true },
-  { id: "eoin-soulx-lyrics", label: "Baseline model + SoulXSinger lyrics", prediction: true },
+const MODEL_GROUPS = [
+  {
+    label: "End-to-End",
+    models: [
+      { id: "character", label: "Character Tokenization", prediction: true },
+      { id: "syllable", label: "Word Tokenization", prediction: true },
+      { id: "bpe", label: "BPE Tokenization", prediction: true },
+    ],
+  },
+  {
+    label: "Modular",
+    models: [
+      { id: "eoin-soulx-lyrics", label: "Cummins + SoulXSinger", prediction: true },
+      { id: "no-lyrics-qwen-lyrics", label: "Cummins retrained + Qwen3-ASR", prediction: true },
+      { id: "eoin-with-lyrics", label: "Cummins + Qwen3-ASR", prediction: true },
+      { id: "gt-with-qwen-lyrics", label: "GT + Qwen3-ASR lyrics", prediction: false },
+      { id: "gt-with-soulx-lyrics", label: "GT + SoulXSinger lyrics", prediction: false },
+    ],
+  },
 ];
+
+const MODELS = MODEL_GROUPS.flatMap((group) => group.models);
 
 const REFERENCE_MODEL = { id: "gt", prediction: false };
 
@@ -199,11 +211,16 @@ function renderAll() {
 
 function populateModelSelect() {
   const select = document.getElementById("model-select");
-  for (const model of MODELS) {
-    const option = document.createElement("option");
-    option.value = model.id;
-    option.textContent = model.label;
-    select.appendChild(option);
+  for (const group of MODEL_GROUPS) {
+    const optgroup = document.createElement("optgroup");
+    optgroup.label = group.label;
+    for (const model of group.models) {
+      const option = document.createElement("option");
+      option.value = model.id;
+      option.textContent = model.label;
+      optgroup.appendChild(option);
+    }
+    select.appendChild(optgroup);
   }
   select.value = state.modelId;
   select.addEventListener("change", () => {
