@@ -54,9 +54,8 @@ conda activate a2ls
 pip install -r requirements.txt
 ```
 
-The retrained checkpoints (no-lyrics, syllable, character, BPE) are too heavy to
-commit; download them from the Hugging Face Hub and place them in
-`code/weights/`:
+The retrained checkpoints are too heavy to commit; download them from the
+Hugging Face Hub and place them in `code/weights/`:
 
 ```bash
 hf download MMR-Lab/SheetSage-A2LS --local-dir code/weights
@@ -72,13 +71,13 @@ Greedily decode the test split of the bundled 100-sample dataset
 ```bash
 cd code
 python inference.py \
-    --checkpoint_path weights/final_char_augmented.ckpt \
+    --checkpoint_path weights/char_tok.ckpt \
     --ds_location ../data/a2ls-100 \
     --output_dir ../predictions/character \
     --lyrics_tokeniser character
 ```
 
-Valid `--lyrics_tokeniser` values: `none`, `syllable`, `character`, `bpe`
+Valid `--lyrics_tokeniser` values: `none`, `word`, `character`, `bpe`
 (must match the tokeniser the checkpoint was trained with). Full-test-set runs
 simply point `--ds_location` to the complete dataset.
 
@@ -92,14 +91,14 @@ a `**text` spine to the lyric-free Kern files:
 ```bash
 cd code
 # Qwen3-ASR transcripts + wav2vec2 character timestamps -> syllable alignment
-python KLA/align_wav2vec2_syllables.py \
+python modular/align_wav2vec2_syllables.py \
     ../data/alignments/qwen3-asr-wav2vec2-character-timestamps-100.json \
     ../data/alignments/GT-word-timestamps-with_rest-100.json \
     --output ../data/alignments/wav2vec2_aligned-gt-100.json \
     --shift-candidates 16
 
 # SoulXSinger timestamped transcripts -> syllable alignment
-python KLA/align_soulxsinger_syllables.py \
+python modular/align_soulxsinger_syllables.py \
     ../data/alignments/soulxsinger-timestamped-transcripts-100.json \
     ../data/alignments/GT-word-timestamps-with_rest-100.json \
     --output ../data/alignments/soulx_aligned-gt-100.json \
@@ -152,6 +151,16 @@ The same 100 ground-truth lead sheets are also stored as plain files in
 spine). The corresponding generations from every model compared in the paper are
 in `krn/`.
 
+The dataset is also hosted on the Hugging Face Hub at
+[MMR-Lab/SheetSage-A2LS-test-100](https://huggingface.co/datasets/MMR-Lab/SheetSage-A2LS-test-100).
+To download it directly instead of cloning this repository:
+
+```bash
+hf download MMR-Lab/SheetSage-A2LS-test-100 \
+    --repo-type dataset \
+    --local-dir data/a2ls-100
+```
+
 ## Repository layout
 
 ```
@@ -163,7 +172,7 @@ in `krn/`.
 │   ├── convert_kern_to_mei.py #   Kern -> MEI for the demo website
 │   ├── make_samples_json.py   #   regenerate data/samples.json
 │   ├── my_utils/, networks/   #   model and tokeniser code
-│   ├── KLA/                   #   KLA syllable alignment (wav2vec2 & SoulXSinger)
+│   ├── modular/               #   modular lyrics alignment (wav2vec2 & SoulXSinger)
 │   ├── tokenizers/gpt2/       #   vendored BPE tokeniser (offline-friendly)
 │   └── weights/               #   model checkpoints (downloaded, not committed)
 ├── data/
