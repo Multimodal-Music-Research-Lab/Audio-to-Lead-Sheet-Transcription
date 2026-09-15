@@ -5,6 +5,7 @@ data/a2ls-100/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+predictions/
 wandb/
 .DS_Store
 joblib_cache
