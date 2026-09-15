@@ -1,9 +1,10 @@
 !! Model prediction
 **kern	**cdata	**text
 *clefG2	*	*
-*k[b-e-a-]	*k[b-e-a-]	*
-*E-:	*E-:	*
-*M4/4	*M4/4	*
+*k[b-e-a-]	*	*
+*E-:	*	*
+*M4/4	*	*
+*	*above	*
 =	=	=
 4f	Eb:maj	Got
 4f	.	to

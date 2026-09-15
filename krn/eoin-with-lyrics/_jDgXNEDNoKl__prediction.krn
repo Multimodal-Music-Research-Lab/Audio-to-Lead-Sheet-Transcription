@@ -1,9 +1,10 @@
 !! Model prediction
 **kern	**cdata	**text
 *clefG2	*	*
-*k[]	*k[]	*
-*C:	*C:	*
-*M4/4	*M4/4	*
+*k[]	*	*
+*C:	*	*
+*M4/4	*	*
+*	*above	*
 =	=	=
 8.ccL	A:min7	Say
 16ccJ	.	to_

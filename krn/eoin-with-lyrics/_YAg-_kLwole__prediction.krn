@@ -1,9 +1,10 @@
 !! Model prediction
 **kern	**cdata	**text
 *clefG2	*	*
-*k[f#c#g#d#a#]	*k[f#c#g#d#a#]	*
-*g#:	*g#:	*
-*M4/4	*M4/4	*
+*k[f#c#g#d#a#]	*	*
+*g#:	*	*
+*M4/4	*	*
+*	*above	*
 =	=	=
 4.e	E:maj	.
 4.f#	.	Rest

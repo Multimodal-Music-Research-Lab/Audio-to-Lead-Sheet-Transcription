@@ -1,9 +1,10 @@
 !! Model prediction
 **kern	**cdata	**text
 *clefG2	*	*
-*k[b-e-]	*k[b-e-]	*
-*g:	*g:	*
-*M4/4	*M4/4	*
+*k[b-e-]	*	*
+*g:	*	*
+*M4/4	*	*
+*	*above	*
 =	=	=
 2b-	G:min	Shake
 8.ccL	Bb:maj	wind

@@ -1,9 +1,10 @@
 !! Model prediction
 **kern	**cdata	**text
 *clefG2	*	*
-*k[b-e-]	*k[b-e-]	*
-*f:mixo	*f:mixo	*
-*M3/4	*M3/4	*
+*k[b-e-]	*	*
+*f:mixo	*	*
+*M3/4	*	*
+*	*above	*
 =	=	=
 8F	F:maj	Go-
 4F	.	.

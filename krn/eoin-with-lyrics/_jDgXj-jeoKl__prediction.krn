@@ -1,9 +1,10 @@
 !! Model prediction
 **kern	**cdata	**text
 *clefG2	*	*
-*k[b-e-]	*k[b-e-]	*
-*B-:	*B-:	*
-*M4/4	*M4/4	*
+*k[b-e-]	*	*
+*B-:	*	*
+*M4/4	*	*
+*	*above	*
 =	=	=
 4F	Bb:maj	Gold-
 4G	.	day

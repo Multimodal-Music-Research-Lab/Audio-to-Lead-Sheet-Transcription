@@ -1,9 +1,10 @@
 !! Model prediction
 **kern	**cdata	**text
 *clefG2	*	*
-*k[]	*k[]	*
-*a:	*a:	*
-*M4/4	*M4/4	*
+*k[]	*	*
+*a:	*	*
+*M4/4	*	*
+*	*above	*
 =	=	=
 8r	A:min	.
 16BL	.	Hey
