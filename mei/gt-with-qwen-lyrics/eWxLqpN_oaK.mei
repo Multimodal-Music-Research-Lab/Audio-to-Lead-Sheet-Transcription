@@ -13,7 +13,7 @@
       </fileDesc>
       <encodingDesc>
          <appInfo>
-            <application isodate="2026-09-12T19:01:01" version="4.3.1-3b8cc17">
+            <application isodate="2026-09-16T00:05:20" version="4.3.1-3b8cc17">
                <name>Verovio</name>
                <p>Transcoded from Humdrum</p>
             </application>
@@ -25,10 +25,10 @@
    </meiHead>
    <music>
       <body>
-         <mdiv xml:id="m1blibh6">
-            <score xml:id="s8oxlzx">
-               <scoreDef xml:id="s54b3lg" tempo.dist="3.0000vu">
-                  <staffGrp xml:id="s8jopv8">
+         <mdiv xml:id="mhkxwwd">
+            <score xml:id="s1dqmh06">
+               <scoreDef xml:id="s1gt3zmm" tempo.dist="3.0000vu">
+                  <staffGrp xml:id="s16wqvmz">
                      <staffDef xml:id="staffdef-L1F1" n="1" lines="5">
                         <clef xml:id="clef-L2F1" shape="G" line="2" />
                         <keySig xml:id="keysig-L3F1" mode="minor" sig="0" pname="a" />
@@ -119,7 +119,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L16F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rv64je3">A:min</rend>
+                        <rend xml:id="r1iaq46s">A:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L23">
@@ -161,7 +161,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L24F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rb7k2cb">D:min</rend>
+                        <rend xml:id="ronlvjb">D:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L31">
@@ -203,7 +203,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L32F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r6tooh5">D:min</rend>
+                        <rend xml:id="rdh1zxz">D:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L39">
@@ -249,7 +249,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L40F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r89h4g2">A:min</rend>
+                        <rend xml:id="r4bph43">A:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L47">
@@ -291,7 +291,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L48F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1967r3b">A:min</rend>
+                        <rend xml:id="rs1tdn9">A:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L55">
@@ -341,7 +341,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L56F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1eon03u">D:min</rend>
+                        <rend xml:id="r19jckoh">D:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L63" right="end">
@@ -360,7 +360,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L64F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1vkcu0i">D:min</rend>
+                        <rend xml:id="r1xrva14">D:min</rend>
                      </harm>
                   </measure>
                </section>

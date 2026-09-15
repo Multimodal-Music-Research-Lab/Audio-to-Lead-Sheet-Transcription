@@ -13,7 +13,7 @@
       </fileDesc>
       <encodingDesc>
          <appInfo>
-            <application isodate="2026-09-12T19:01:02" version="4.3.1-3b8cc17">
+            <application isodate="2026-09-16T00:05:20" version="4.3.1-3b8cc17">
                <name>Verovio</name>
                <p>Transcoded from Humdrum</p>
             </application>
@@ -25,10 +25,10 @@
    </meiHead>
    <music>
       <body>
-         <mdiv xml:id="m1xldwna">
-            <score xml:id="s1wbla1j">
-               <scoreDef xml:id="sgkwcug" tempo.dist="3.0000vu">
-                  <staffGrp xml:id="s1kt4kcu">
+         <mdiv xml:id="miwwnvt">
+            <score xml:id="s1d6vywg">
+               <scoreDef xml:id="snzuoca" tempo.dist="3.0000vu">
+                  <staffGrp xml:id="s11712ii">
                      <staffDef xml:id="staffdef-L1F1" n="1" lines="5">
                         <clef xml:id="clef-L2F1" shape="G" line="2" />
                         <keySig xml:id="keysig-L3F1" accid="f" mode="major" sig="3f" pname="e" />
@@ -49,7 +49,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L8F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rp8v2jy">C:min</rend>
+                        <rend xml:id="rkea2id">C:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L10">
@@ -73,7 +73,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L12F2" place="above" staff="1" tstamp="2.000000" n="2">
-                        <rend xml:id="r120gpne">C:min7</rend>
+                        <rend xml:id="rx1zghq">C:min7</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L14">
@@ -97,7 +97,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L15F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1u5jbqv">G:min/b3</rend>
+                        <rend xml:id="r19w1rj9">G:min/b3</rend>
                      </harm>
                      <tie xml:id="tie-L17F1-L19F1" startid="#note-L17F1" endid="#note-L19F1" />
                   </measure>
@@ -121,7 +121,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L20F2" place="above" staff="1" tstamp="2.000000" n="2">
-                        <rend xml:id="r1cyqm3r">Bb:maj</rend>
+                        <rend xml:id="ri45ai6">Bb:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L23">
@@ -136,7 +136,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L24F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1ji9ekq">G:min</rend>
+                        <rend xml:id="rtvx1qr">G:min</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L26">
@@ -162,7 +162,7 @@
                      </staff>
                      <tie xml:id="tie-L27F1-L28F1" startid="#note-L27F1" endid="#note-L28F1" />
                      <harm xml:id="harm-L28F2" place="above" staff="1" tstamp="2.000000" n="2">
-                        <rend xml:id="r1d596pa">G:min7</rend>
+                        <rend xml:id="r1xfcb7q">G:min7</rend>
                      </harm>
                      <tie xml:id="tie-L30F1-L32F1" startid="#note-L30F1" endid="#note-L32F1" />
                   </measure>
@@ -174,7 +174,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L32F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r17lel24">Ab:maj</rend>
+                        <rend xml:id="rg6h66b">Ab:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L34" right="end">

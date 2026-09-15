@@ -13,7 +13,7 @@
       </fileDesc>
       <encodingDesc>
          <appInfo>
-            <application isodate="2026-09-12T19:01:05" version="4.3.1-3b8cc17">
+            <application isodate="2026-09-16T00:05:12" version="4.3.1-3b8cc17">
                <name>Verovio</name>
                <p>Transcoded from Humdrum</p>
             </application>
@@ -25,14 +25,14 @@
    </meiHead>
    <music>
       <body>
-         <mdiv xml:id="me0c3c4">
-            <score xml:id="s5ofxk">
-               <scoreDef xml:id="s1qdrd96" tempo.dist="3.0000vu">
-                  <staffGrp xml:id="s104msj0">
+         <mdiv xml:id="m20ba95">
+            <score xml:id="s14thopa">
+               <scoreDef xml:id="s1bj76cx" tempo.dist="3.0000vu">
+                  <staffGrp xml:id="scsn8oz">
                      <staffDef xml:id="staffdef-L2F1" n="1" lines="5">
                         <clef xml:id="clef-L3F1" shape="G" line="2" />
-                        <keySig xml:id="keysig-L5F1" sig="3s" />
-                        <meterSig xml:id="metersig-L7F1" count="4" unit="4" />
+                        <keySig xml:id="keysig-L4F1" sig="3s" />
+                        <meterSig xml:id="metersig-L6F1" count="4" unit="4" />
                      </staffDef>
                   </staffGrp>
                </scoreDef>
@@ -40,198 +40,198 @@
                   <measure xml:id="measure-L1">
                      <staff xml:id="staff-L2F1" n="1">
                         <layer xml:id="layer-L1F1N1" n="1">
-                           <beam xml:id="beam-L10F1-L11F1">
-                              <note xml:id="note-L10F1" dur="8" oct="3" pname="g" accid.ges="s" />
-                              <note xml:id="note-L11F1" dur="8" oct="3" pname="a" accid.ges="n">
-                                 <verse xml:id="verse-L11F3" n="1">
-                                    <syl xml:id="syl-L11F3">All</syl>
+                           <beam xml:id="beam-L9F1-L10F1">
+                              <note xml:id="note-L9F1" dur="8" oct="3" pname="g" accid.ges="s" />
+                              <note xml:id="note-L10F1" dur="8" oct="3" pname="a" accid.ges="n">
+                                 <verse xml:id="verse-L10F3" n="1">
+                                    <syl xml:id="syl-L10F3">All</syl>
                                  </verse>
                               </note>
                            </beam>
-                           <note xml:id="note-L12F1" dur="8" oct="3" pname="a" accid.ges="n">
+                           <note xml:id="note-L11F1" dur="8" oct="3" pname="a" accid.ges="n">
+                              <verse xml:id="verse-L11F3" n="1">
+                                 <syl xml:id="syl-L11F3"> I</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="note-L12F1" dots="1" dur="4" oct="3" pname="b" accid.ges="n">
                               <verse xml:id="verse-L12F3" n="1">
-                                 <syl xml:id="syl-L12F3"> I</syl>
+                                 <syl xml:id="syl-L12F3">know</syl>
                               </verse>
                            </note>
-                           <note xml:id="note-L13F1" dots="1" dur="4" oct="3" pname="b" accid.ges="n">
-                              <verse xml:id="verse-L13F3" n="1">
-                                 <syl xml:id="syl-L13F3">know</syl>
-                              </verse>
-                           </note>
-                           <rest xml:id="rest-L14F1" dur="8" />
+                           <rest xml:id="rest-L13F1" dur="8" />
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L10F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r5wq4g6">E:maj</rend>
+                     <harm xml:id="harm-L9F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="r2gnfbv">E:maj</rend>
                      </harm>
                   </measure>
-                  <measure xml:id="measure-L15">
-                     <staff xml:id="staff-L15F1N1" n="1">
-                        <layer xml:id="layer-L15F1N1" n="1">
-                           <note xml:id="note-L16F1" dur="4" oct="4" pname="d" accid.ges="n">
+                  <measure xml:id="measure-L14">
+                     <staff xml:id="staff-L14F1N1" n="1">
+                        <layer xml:id="layer-L14F1N1" n="1">
+                           <note xml:id="note-L15F1" dur="4" oct="4" pname="d" accid.ges="n">
+                              <verse xml:id="verse-L15F3" n="1">
+                                 <syl xml:id="syl-L15F3">is</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="note-L16F1" dur="4" oct="4" pname="c" accid.ges="s">
                               <verse xml:id="verse-L16F3" n="1">
-                                 <syl xml:id="syl-L16F3">is</syl>
+                                 <syl xml:id="syl-L16F3">don't</syl>
                               </verse>
                            </note>
-                           <note xml:id="note-L17F1" dur="4" oct="4" pname="c" accid.ges="s">
-                              <verse xml:id="verse-L17F3" n="1">
-                                 <syl xml:id="syl-L17F3">don't</syl>
-                              </verse>
-                           </note>
-                           <beam xml:id="beam-L18F1-L19F1">
-                              <note xml:id="note-L18F1" dur="8" oct="3" pname="b" accid.ges="n">
-                                 <verse xml:id="verse-L18F3" n="1">
-                                    <syl xml:id="syl-L18F3">out</syl>
+                           <beam xml:id="beam-L17F1-L18F1">
+                              <note xml:id="note-L17F1" dur="8" oct="3" pname="b" accid.ges="n">
+                                 <verse xml:id="verse-L17F3" n="1">
+                                    <syl xml:id="syl-L17F3">out</syl>
                                  </verse>
                               </note>
+                              <note xml:id="note-L18F1" dur="8" oct="3" pname="a" accid.ges="n">
+                                 <verse xml:id="verse-L18F3" n="1">
+                                    <syl xml:id="syl-L18F3" wordpos="t">bout</syl>
+                                 </verse>
+                              </note>
+                           </beam>
+                           <beam xml:id="beam-L19F1-L20F1">
                               <note xml:id="note-L19F1" dur="8" oct="3" pname="a" accid.ges="n">
                                  <verse xml:id="verse-L19F3" n="1">
-                                    <syl xml:id="syl-L19F3" wordpos="t">bout</syl>
+                                    <syl xml:id="syl-L19F3" con="u" wordpos="t">dead</syl>
                                  </verse>
                               </note>
-                           </beam>
-                           <beam xml:id="beam-L20F1-L21F1">
-                              <note xml:id="note-L20F1" dur="8" oct="3" pname="a" accid.ges="n">
-                                 <verse xml:id="verse-L20F3" n="1">
-                                    <syl xml:id="syl-L20F3" con="u" wordpos="t">dead</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="note-L21F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                              <note xml:id="note-L20F1" dur="8" oct="3" pname="a" accid.ges="n" />
                            </beam>
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L16F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rs671u7">G:maj</rend>
+                     <harm xml:id="harm-L15F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="rtzmn07">G:maj</rend>
                      </harm>
                   </measure>
-                  <measure xml:id="measure-L22">
-                     <staff xml:id="staff-L22F1N1" n="1">
-                        <layer xml:id="layer-L22F1N1" n="1">
+                  <measure xml:id="measure-L21">
+                     <staff xml:id="staff-L21F1N1" n="1">
+                        <layer xml:id="layer-L21F1N1" n="1">
+                           <note xml:id="note-L22F1" dur="4" oct="3" pname="a" accid.ges="n">
+                              <verse xml:id="verse-L22F3" n="1">
+                                 <syl xml:id="syl-L22F3" wordpos="t">lines</syl>
+                              </verse>
+                           </note>
                            <note xml:id="note-L23F1" dur="4" oct="3" pname="a" accid.ges="n">
                               <verse xml:id="verse-L23F3" n="1">
-                                 <syl xml:id="syl-L23F3" wordpos="t">lines</syl>
+                                 <syl xml:id="syl-L23F3">All</syl>
                               </verse>
                            </note>
-                           <note xml:id="note-L24F1" dur="4" oct="3" pname="a" accid.ges="n">
-                              <verse xml:id="verse-L24F3" n="1">
-                                 <syl xml:id="syl-L24F3">All</syl>
-                              </verse>
-                           </note>
-                           <beam xml:id="beam-L25F1-L26F1">
+                           <beam xml:id="beam-L24F1-L25F1">
+                              <note xml:id="note-L24F1" dur="8" oct="3" pname="a" accid.ges="n">
+                                 <verse xml:id="verse-L24F3" n="1">
+                                    <syl xml:id="syl-L24F3">know</syl>
+                                 </verse>
+                              </note>
                               <note xml:id="note-L25F1" dur="8" oct="3" pname="a" accid.ges="n">
                                  <verse xml:id="verse-L25F3" n="1">
-                                    <syl xml:id="syl-L25F3">know</syl>
-                                 </verse>
-                              </note>
-                              <note xml:id="note-L26F1" dur="8" oct="3" pname="a" accid.ges="n">
-                                 <verse xml:id="verse-L26F3" n="1">
-                                    <syl xml:id="syl-L26F3">is</syl>
+                                    <syl xml:id="syl-L25F3">is</syl>
                                  </verse>
                               </note>
                            </beam>
-                           <note xml:id="note-L27F1" dur="4" oct="3" pname="b" accid.ges="n">
-                              <verse xml:id="verse-L27F3" n="1">
-                                 <syl xml:id="syl-L27F3">take</syl>
+                           <note xml:id="note-L26F1" dur="4" oct="3" pname="b" accid.ges="n">
+                              <verse xml:id="verse-L26F3" n="1">
+                                 <syl xml:id="syl-L26F3">take</syl>
                               </verse>
                            </note>
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L23F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rnoyy1s">D:maj</rend>
+                     <harm xml:id="harm-L22F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="ri1hse6">D:maj</rend>
                      </harm>
                   </measure>
-                  <measure xml:id="measure-L28">
-                     <staff xml:id="staff-L28F1N1" n="1">
-                        <layer xml:id="layer-L28F1N1" n="1">
-                           <note xml:id="note-L29F1" dur="2" oct="4" pname="c" accid.ges="s">
+                  <measure xml:id="measure-L27">
+                     <staff xml:id="staff-L27F1N1" n="1">
+                        <layer xml:id="layer-L27F1N1" n="1">
+                           <note xml:id="note-L28F1" dur="2" oct="4" pname="c" accid.ges="s">
+                              <verse xml:id="verse-L28F3" n="1">
+                                 <syl xml:id="syl-L28F3" con="d" wordpos="i">me</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="note-L29F1" dur="4" oct="3" pname="b" accid.ges="n">
                               <verse xml:id="verse-L29F3" n="1">
-                                 <syl xml:id="syl-L29F3" con="d" wordpos="i">me</syl>
+                                 <syl xml:id="syl-L29F3">take</syl>
                               </verse>
                            </note>
-                           <note xml:id="note-L30F1" dur="4" oct="3" pname="b" accid.ges="n">
+                           <note xml:id="note-L30F1" dur="4" oct="3" pname="a" accid.ges="n">
                               <verse xml:id="verse-L30F3" n="1">
-                                 <syl xml:id="syl-L30F3">take</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="note-L31F1" dur="4" oct="3" pname="a" accid.ges="n">
-                              <verse xml:id="verse-L31F3" n="1">
-                                 <syl xml:id="syl-L31F3" con="d" wordpos="i">me</syl>
+                                 <syl xml:id="syl-L30F3" con="d" wordpos="i">me</syl>
                               </verse>
                            </note>
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L29F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r16h7fmv">A:maj</rend>
+                     <harm xml:id="harm-L28F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="rj1bmc2">A:maj</rend>
                      </harm>
                   </measure>
-                  <measure xml:id="measure-L32">
-                     <staff xml:id="staff-L32F1N1" n="1">
-                        <layer xml:id="layer-L32F1N1" n="1">
-                           <beam xml:id="beam-L33F1-L34F1">
-                              <note xml:id="note-L33F1" dur="8" oct="3" pname="g" accid.ges="s">
-                                 <verse xml:id="verse-L33F3" n="1">
-                                    <syl xml:id="syl-L33F3" wordpos="t">cine</syl>
+                  <measure xml:id="measure-L31">
+                     <staff xml:id="staff-L31F1N1" n="1">
+                        <layer xml:id="layer-L31F1N1" n="1">
+                           <beam xml:id="beam-L32F1-L33F1">
+                              <note xml:id="note-L32F1" dur="8" oct="3" pname="g" accid.ges="s">
+                                 <verse xml:id="verse-L32F3" n="1">
+                                    <syl xml:id="syl-L32F3" wordpos="t">cine</syl>
                                  </verse>
                               </note>
-                              <note xml:id="note-L34F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                              <note xml:id="note-L33F1" dur="8" oct="3" pname="a" accid.ges="n" />
                            </beam>
-                           <note xml:id="note-L35F1" dur="8" oct="3" pname="a" accid.ges="n" />
-                           <note xml:id="note-L36F1" dots="1" dur="4" oct="3" pname="b" accid.ges="n" />
-                           <beam xml:id="beam-L37F1-L38F1">
+                           <note xml:id="note-L34F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                           <note xml:id="note-L35F1" dots="1" dur="4" oct="3" pname="b" accid.ges="n" />
+                           <beam xml:id="beam-L36F1-L37F1">
+                              <note xml:id="note-L36F1" dur="8" oct="3" pname="e" accid.ges="n" />
                               <note xml:id="note-L37F1" dur="8" oct="3" pname="e" accid.ges="n" />
-                              <note xml:id="note-L38F1" dur="8" oct="3" pname="e" accid.ges="n" />
                            </beam>
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L33F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="raj90hh">E:maj</rend>
+                     <harm xml:id="harm-L32F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="r1n4v62t">E:maj</rend>
                      </harm>
                   </measure>
-                  <measure xml:id="measure-L39">
-                     <staff xml:id="staff-L39F1N1" n="1">
-                        <layer xml:id="layer-L39F1N1" n="1">
-                           <note xml:id="note-L40F1" dur="4" oct="4" pname="d" accid.ges="n" />
-                           <note xml:id="note-L41F1" dur="4" oct="4" pname="c" accid.ges="s" />
-                           <beam xml:id="beam-L42F1-L43F1">
-                              <note xml:id="note-L42F1" dur="8" oct="3" pname="b" accid.ges="n" />
+                  <measure xml:id="measure-L38">
+                     <staff xml:id="staff-L38F1N1" n="1">
+                        <layer xml:id="layer-L38F1N1" n="1">
+                           <note xml:id="note-L39F1" dur="4" oct="4" pname="d" accid.ges="n" />
+                           <note xml:id="note-L40F1" dur="4" oct="4" pname="c" accid.ges="s" />
+                           <beam xml:id="beam-L41F1-L42F1">
+                              <note xml:id="note-L41F1" dur="8" oct="3" pname="b" accid.ges="n" />
+                              <note xml:id="note-L42F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                           </beam>
+                           <beam xml:id="beam-L43F1-L44F1">
                               <note xml:id="note-L43F1" dur="8" oct="3" pname="a" accid.ges="n" />
-                           </beam>
-                           <beam xml:id="beam-L44F1-L45F1">
                               <note xml:id="note-L44F1" dur="8" oct="3" pname="a" accid.ges="n" />
-                              <note xml:id="note-L45F1" dur="8" oct="3" pname="a" accid.ges="n" />
                            </beam>
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L40F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r4voo9t">G:maj</rend>
+                     <harm xml:id="harm-L39F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="rea8n2u">G:maj</rend>
                      </harm>
                   </measure>
-                  <measure xml:id="measure-L46">
-                     <staff xml:id="staff-L46F1N1" n="1">
-                        <layer xml:id="layer-L46F1N1" n="1">
+                  <measure xml:id="measure-L45">
+                     <staff xml:id="staff-L45F1N1" n="1">
+                        <layer xml:id="layer-L45F1N1" n="1">
+                           <note xml:id="note-L46F1" dur="4" oct="3" pname="a" accid.ges="n" />
                            <note xml:id="note-L47F1" dur="4" oct="3" pname="a" accid.ges="n" />
                            <note xml:id="note-L48F1" dur="4" oct="3" pname="a" accid.ges="n" />
-                           <note xml:id="note-L49F1" dur="4" oct="3" pname="a" accid.ges="n" />
-                           <note xml:id="note-L50F1" dur="4" oct="3" pname="b" accid.ges="n" />
+                           <note xml:id="note-L49F1" dur="4" oct="3" pname="b" accid.ges="n" />
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L47F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1yqugp1">D:maj</rend>
+                     <harm xml:id="harm-L46F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="rob4hgu">D:maj</rend>
                      </harm>
                   </measure>
-                  <measure xml:id="measure-L51" right="end">
-                     <staff xml:id="staff-L51F1N1" n="1">
-                        <layer xml:id="layer-L51F1N1" n="1">
-                           <beam xml:id="beam-L52F1-L53F1">
-                              <note xml:id="note-L52F1" dur="8" oct="3" pname="a" accid.ges="n" />
-                              <note xml:id="note-L53F1" dur="8" oct="3" pname="g" accid.ges="s" />
+                  <measure xml:id="measure-L50" right="end">
+                     <staff xml:id="staff-L50F1N1" n="1">
+                        <layer xml:id="layer-L50F1N1" n="1">
+                           <beam xml:id="beam-L51F1-L52F1">
+                              <note xml:id="note-L51F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                              <note xml:id="note-L52F1" dur="8" oct="3" pname="g" accid.ges="s" />
                            </beam>
-                           <note xml:id="note-L54F1" dur="2" oct="3" pname="g" accid.ges="s" />
-                           <rest xml:id="rest-L55F1" dur="4" />
+                           <note xml:id="note-L53F1" dur="2" oct="3" pname="g" accid.ges="s" />
+                           <rest xml:id="rest-L54F1" dur="4" />
                         </layer>
                      </staff>
-                     <harm xml:id="harm-L52F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1u8mczc">E:maj</rend>
+                     <harm xml:id="harm-L51F2" place="above" staff="1" tstamp="1.000000" n="2">
+                        <rend xml:id="rwedlxe">E:maj</rend>
                      </harm>
                   </measure>
                </section>

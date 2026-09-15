@@ -13,7 +13,7 @@
       </fileDesc>
       <encodingDesc>
          <appInfo>
-            <application isodate="2026-09-12T19:01:00" version="4.3.1-3b8cc17">
+            <application isodate="2026-09-16T00:05:19" version="4.3.1-3b8cc17">
                <name>Verovio</name>
                <p>Transcoded from Humdrum</p>
             </application>
@@ -25,10 +25,10 @@
    </meiHead>
    <music>
       <body>
-         <mdiv xml:id="m10t3b05">
-            <score xml:id="s184k9ab">
-               <scoreDef xml:id="sb0blu7" tempo.dist="3.0000vu">
-                  <staffGrp xml:id="s1caz2z9">
+         <mdiv xml:id="m5bfz2o">
+            <score xml:id="s12iqqwv">
+               <scoreDef xml:id="s1pmna8i" tempo.dist="3.0000vu">
+                  <staffGrp xml:id="s1y3lski">
                      <staffDef xml:id="staffdef-L1F1" n="1" lines="5">
                         <clef xml:id="clef-L2F1" shape="G" line="2" />
                         <keySig xml:id="keysig-L3F1" mode="minor" sig="0" pname="a" />
@@ -78,13 +78,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L8F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1xlk4lq">A:min</rend>
+                        <rend xml:id="r1adw3ej">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L12F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r17zo862">C:maj</rend>
+                        <rend xml:id="r11b7cfl">C:maj</rend>
                      </harm>
                      <harm xml:id="harm-L14F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="r13327v3">F:maj</rend>
+                        <rend xml:id="rtsk66w">F:maj</rend>
                      </harm>
                      <tie xml:id="tie-L14F1-L16F1" startid="#note-L14F1" endid="#note-L16F1" />
                   </measure>
@@ -98,7 +98,7 @@
                      </staff>
                      <tie xml:id="tie-L17F1-L18F1" startid="#note-L17F1" endid="#note-L18F1" />
                      <harm xml:id="harm-L18F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1gvbcca">G:maj</rend>
+                        <rend xml:id="r1dhz4ju">G:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L19">
@@ -142,13 +142,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L20F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rh1keox">A:min</rend>
+                        <rend xml:id="rnjr6nb">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L24F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="rzp7yf5">C:maj</rend>
+                        <rend xml:id="ri33kj7">C:maj</rend>
                      </harm>
                      <harm xml:id="harm-L26F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="r84ydj2">F:maj</rend>
+                        <rend xml:id="rsbsw7y">F:maj</rend>
                      </harm>
                      <tie xml:id="tie-L26F1-L28F1" startid="#note-L26F1" endid="#note-L28F1" />
                   </measure>
@@ -181,7 +181,7 @@
                      </staff>
                      <tie xml:id="tie-L30F1-L31F1" startid="#note-L30F1" endid="#note-L31F1" />
                      <harm xml:id="harm-L31F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1340po0">G:maj</rend>
+                        <rend xml:id="r1c35wnd">G:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L34">
@@ -225,13 +225,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L35F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r3decko">A:min</rend>
+                        <rend xml:id="rqxw8un">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L39F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="ra5defo">C:maj</rend>
+                        <rend xml:id="rns6hel">C:maj</rend>
                      </harm>
                      <harm xml:id="harm-L41F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="rat1yxn">F:maj</rend>
+                        <rend xml:id="r1e21tsg">F:maj</rend>
                      </harm>
                      <tie xml:id="tie-L41F1-L43F1" startid="#note-L41F1" endid="#note-L43F1" />
                   </measure>
@@ -245,7 +245,7 @@
                      </staff>
                      <tie xml:id="tie-L44F1-L45F1" startid="#note-L44F1" endid="#note-L45F1" />
                      <harm xml:id="harm-L45F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1o99ngi">G:maj</rend>
+                        <rend xml:id="rpfu48f">G:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L46">
@@ -289,13 +289,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L47F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rmjjxfy">A:min</rend>
+                        <rend xml:id="r1oiloj6">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L51F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r30opf1">E:min</rend>
+                        <rend xml:id="rpl8h40">E:min</rend>
                      </harm>
                      <harm xml:id="harm-L53F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="ricbg31">F:maj</rend>
+                        <rend xml:id="rx5grnk">F:maj</rend>
                      </harm>
                      <tie xml:id="tie-L53F1-L55F1" startid="#note-L53F1" endid="#note-L55F1" />
                   </measure>
@@ -328,7 +328,7 @@
                      </staff>
                      <tie xml:id="tie-L57F1-L58F1" startid="#note-L57F1" endid="#note-L58F1" />
                      <harm xml:id="harm-L58F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r16i5lgo">G:maj</rend>
+                        <rend xml:id="rps5kk5">G:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L61">
@@ -372,13 +372,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L62F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1mbvwsf">A:min</rend>
+                        <rend xml:id="r1hu6vyq">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L66F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1m0m1ea">C:maj</rend>
+                        <rend xml:id="r1yzzjc7">C:maj</rend>
                      </harm>
                      <harm xml:id="harm-L68F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="r1h0v3pp">F:maj</rend>
+                        <rend xml:id="r10h21q5">F:maj</rend>
                      </harm>
                      <tie xml:id="tie-L68F1-L70F1" startid="#note-L68F1" endid="#note-L70F1" />
                   </measure>
@@ -392,7 +392,7 @@
                      </staff>
                      <tie xml:id="tie-L71F1-L72F1" startid="#note-L71F1" endid="#note-L72F1" />
                      <harm xml:id="harm-L72F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r17clhkv">G:maj</rend>
+                        <rend xml:id="ruc0ovr">G:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L73">
@@ -436,13 +436,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L74F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="re846si">A:min</rend>
+                        <rend xml:id="r1578uwe">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L78F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1ptdoje">C:maj</rend>
+                        <rend xml:id="r12p8fml">C:maj</rend>
                      </harm>
                      <harm xml:id="harm-L80F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="r1ssywjr">F:maj</rend>
+                        <rend xml:id="rt06p7r">F:maj</rend>
                      </harm>
                      <tie xml:id="tie-L80F1-L82F1" startid="#note-L80F1" endid="#note-L82F1" />
                   </measure>
@@ -468,7 +468,7 @@
                      </staff>
                      <tie xml:id="tie-L83F1-L84F1" startid="#note-L83F1" endid="#note-L84F1" />
                      <harm xml:id="harm-L84F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="rsd9xe4">G:maj</rend>
+                        <rend xml:id="r1icn1wb">G:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L87">
@@ -512,13 +512,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L88F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r195ycok">A:min</rend>
+                        <rend xml:id="r1fsl1m0">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L92F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1e0jc99">C:maj</rend>
+                        <rend xml:id="r1j3zxqp">C:maj</rend>
                      </harm>
                      <harm xml:id="harm-L94F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="r1jaoox3">F:maj</rend>
+                        <rend xml:id="rm6gw7u">F:maj</rend>
                      </harm>
                      <tie xml:id="tie-L94F1-L96F1" startid="#note-L94F1" endid="#note-L96F1" />
                   </measure>
@@ -532,7 +532,7 @@
                      </staff>
                      <tie xml:id="tie-L97F1-L98F1" startid="#note-L97F1" endid="#note-L98F1" />
                      <harm xml:id="harm-L98F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r14ypnty">G:maj</rend>
+                        <rend xml:id="r4mujpi">G:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L99">
@@ -544,13 +544,13 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L100F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1juqk6u">A:min</rend>
+                        <rend xml:id="rkhn11b">A:min</rend>
                      </harm>
                      <harm xml:id="harm-L101F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1pgtfz5">E:min</rend>
+                        <rend xml:id="rr8ufag">E:min</rend>
                      </harm>
                      <harm xml:id="harm-L102F2" place="above" staff="1" tstamp="4.500000" n="2">
-                        <rend xml:id="r15vys1h">F:maj</rend>
+                        <rend xml:id="r1n6h7bl">F:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L103" right="end">
@@ -561,7 +561,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L105F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r12r58go">G:maj</rend>
+                        <rend xml:id="r1a2ujyc">G:maj</rend>
                      </harm>
                   </measure>
                </section>

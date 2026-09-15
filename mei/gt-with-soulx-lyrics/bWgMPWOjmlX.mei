@@ -13,7 +13,7 @@
       </fileDesc>
       <encodingDesc>
          <appInfo>
-            <application isodate="2026-09-12T19:01:04" version="4.3.1-3b8cc17">
+            <application isodate="2026-09-16T00:05:22" version="4.3.1-3b8cc17">
                <name>Verovio</name>
                <p>Transcoded from Humdrum</p>
             </application>
@@ -25,10 +25,10 @@
    </meiHead>
    <music>
       <body>
-         <mdiv xml:id="ml3mosh">
-            <score xml:id="s5c5y78">
-               <scoreDef xml:id="s1n1b79j" tempo.dist="3.0000vu">
-                  <staffGrp xml:id="snrvqaq">
+         <mdiv xml:id="mbvboaw">
+            <score xml:id="s1f5fg10">
+               <scoreDef xml:id="s1v4f4gg" tempo.dist="3.0000vu">
+                  <staffGrp xml:id="s2c0g6m">
                      <staffDef xml:id="staffdef-L1F1" n="1" lines="5">
                         <clef xml:id="clef-L2F1" shape="G" line="2" />
                         <keySig xml:id="keysig-L3F1" mode="minor" sig="0" pname="a" />
@@ -80,10 +80,10 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L8F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1midw2f">F:maj</rend>
+                        <rend xml:id="r185llzy">F:maj</rend>
                      </harm>
                      <harm xml:id="harm-L11F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1818g8m">E:min7(11)</rend>
+                        <rend xml:id="r1nu2mw1">E:min7(11)</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L15">
@@ -142,10 +142,10 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L16F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1f9nnbx">A:min7</rend>
+                        <rend xml:id="rryqpwb">A:min7</rend>
                      </harm>
                      <harm xml:id="harm-L20F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r1kyqj2j">E:min/b3</rend>
+                        <rend xml:id="r1rw27yw">E:min/b3</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L26">
@@ -183,10 +183,10 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L27F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1yfxx5i">F:maj</rend>
+                        <rend xml:id="r1np80q8">F:maj</rend>
                      </harm>
                      <harm xml:id="harm-L30F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="rrcihs1">E:min7(11)</rend>
+                        <rend xml:id="rxqiu7u">E:min7(11)</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L34">
@@ -253,10 +253,10 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L35F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1o0yldo">A:min7</rend>
+                        <rend xml:id="rqvny2l">A:min7</rend>
                      </harm>
                      <harm xml:id="harm-L39F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r11fip7u">E:min/b3</rend>
+                        <rend xml:id="ryxaku3">E:min/b3</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L45">
@@ -298,10 +298,10 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L46F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rg6cqt9">F:maj</rend>
+                        <rend xml:id="r1cmadtt">F:maj</rend>
                      </harm>
                      <harm xml:id="harm-L49F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="r7c7zsr">E:min7(11)</rend>
+                        <rend xml:id="r1b46s5e">E:min7(11)</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L53">
@@ -364,10 +364,10 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L54F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="r1r9u9cw">A:min7</rend>
+                        <rend xml:id="r4gwb8c">A:min7</rend>
                      </harm>
                      <harm xml:id="harm-L58F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="rq5rp96">C:maj</rend>
+                        <rend xml:id="r1u0wn43">C:maj</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L64">
@@ -405,10 +405,10 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L65F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rqoe4u5">F:maj</rend>
+                        <rend xml:id="rjesp4w">F:maj</rend>
                      </harm>
                      <harm xml:id="harm-L68F2" place="above" staff="1" tstamp="3.000000" n="2">
-                        <rend xml:id="rv5wott">C:maj7/3</rend>
+                        <rend xml:id="rt4w9fn">C:maj7/3</rend>
                      </harm>
                   </measure>
                   <measure xml:id="measure-L72" right="end">
@@ -457,7 +457,7 @@
                         </layer>
                      </staff>
                      <harm xml:id="harm-L73F2" place="above" staff="1" tstamp="1.000000" n="2">
-                        <rend xml:id="rjc3c2y">A:min7</rend>
+                        <rend xml:id="rdps3qi">A:min7</rend>
                      </harm>
                   </measure>
                </section>
