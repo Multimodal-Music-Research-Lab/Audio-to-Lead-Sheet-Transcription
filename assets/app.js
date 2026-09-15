@@ -32,13 +32,21 @@ const REFERENCE_MODEL = { id: "gt", prediction: false };
 
 const METRIC_COLUMNS = [
   ["sym-er", "SymER"],
+  ["hard_sym-er", "Hard SymER"],
   ["char-er", "CharER"],
+  ["hard_char-er", "Hard CharER"],
   ["melody_sym_er", "Melody SymER"],
+  ["melody_hard_sym_er", "Melody Hard SymER"],
   ["chords_sym_er", "Chords SymER"],
+  ["chords_hard_sym_er", "Chords Hard SymER"],
   ["lyrics_sym_er", "Lyrics SymER"],
+  ["lyrics_hard_sym_er", "Lyrics Hard SymER"],
   ["melody_char_er", "Melody CharER"],
+  ["melody_hard_char_er", "Melody Hard CharER"],
   ["chords_char_er", "Chords CharER"],
+  ["chords_hard_char_er", "Chords Hard CharER"],
   ["lyrics_char_er", "Lyrics CharER"],
+  ["lyrics_hard_char_er", "Lyrics Hard CharER"],
 ];
 
 const SAMPLES_URL = "data/samples.json";

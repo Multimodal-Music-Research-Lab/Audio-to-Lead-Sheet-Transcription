@@ -11,13 +11,66 @@ from tqdm import tqdm
 ERROR_METRIC_NAMES = (
     "sym-er",
     "char-er",
+    "hard_sym-er",
+    "hard_char-er",
     "melody_sym_er",
     "chords_sym_er",
     "lyrics_sym_er",
+    "melody_hard_sym_er",
+    "chords_hard_sym_er",
+    "lyrics_hard_sym_er",
+    "melody_hard_char_er",
+    "chords_hard_char_er",
+    "lyrics_hard_char_er",
     "melody_char_er",
     "chords_char_er",
     "lyrics_char_er",
 )
+
+HARD_IGNORE_PREFIXES = ("!", "*", "=")
+HARD_IGNORE_TOKENS = (".", "\t", "\n")
+
+
+def _is_ignored_kern_token(token: str) -> bool:
+    return token in HARD_IGNORE_TOKENS or token.startswith(HARD_IGNORE_PREFIXES)
+
+
+def _filter_kern_tokens(tokens: list[str]) -> list[str]:
+    return [token for token in tokens if not _is_ignored_kern_token(token)]
+
+
+def _hard_ed_metrics(y_true: list[list[str]], y_pred: list[list[str]]) -> dict[str, float]:
+    """Sym-ER and char-ER over sequences with structural kern tokens removed.
+
+    Ignored tokens (``!``/``*``/``=`` prefixes, bare ``.`` and the tab/newline
+    delimiters) are removed entirely before the remaining tokens are assembled
+    into the character sequences used for the char-ER.
+    """
+    filtered_true = [_filter_kern_tokens(seq) for seq in y_true]
+    filtered_pred = [_filter_kern_tokens(seq) for seq in y_pred]
+    if sum(len(seq) for seq in filtered_true) == 0:
+        return {"sym-er": 0.0, "char-er": 0.0}
+    ed_metrics = M.compute_ed_metrics(filtered_true, filtered_pred)
+    return {"sym-er": ed_metrics["sym-er"], "char-er": ed_metrics["char-er"]}
+
+
+def _hard_spine_ed_ers(ref: list[list[str]], pred: list[list[str]]) -> dict[str, float]:
+    """Per-spine sym-ER and char-ER with structural kern tokens removed."""
+    ref_spines = [
+        M.split_spines_from_tokens(seq, use_literal_delimiters=True) for seq in ref
+    ]
+    pred_spines = [
+        M.split_spines_from_tokens(seq, use_literal_delimiters=True) for seq in pred
+    ]
+    metrics = {}
+    for spine_name, index in (("melody", 0), ("chords", 1), ("lyrics", 2)):
+        ed_metrics = _hard_ed_metrics(
+            [spines[index] for spines in ref_spines],
+            [spines[index] for spines in pred_spines],
+        )
+        metrics[f"{spine_name}_hard_sym_er"] = ed_metrics["sym-er"]
+        metrics[f"{spine_name}_hard_char_er"] = ed_metrics["char-er"]
+    return metrics
 
 
 def _extract_id(name: str, ground_truth_kern: bool) -> str:
@@ -43,35 +96,16 @@ def _load_pred(id, PRED):
     return krn
 
 
-def match_headers(pred_text: str, ref_text: str) -> str:
-    """Align prediction header cdata with the reference kern header.
+def match_headers(pred_text: str) -> str:
+    """Canonicalize prediction header cdata for any spine count.
 
-    Key/tonic and meter interpretations are intentionally represented by a
-    single ``*`` in the cdata spine.  The ``*above`` interpretation row is
-    canonicalized immediately before the first barline.
+    Non-kern spines represent every interpretation row (clef, key signature,
+    tonic and meter) by a single ``*``; duplicated interpretation rows emitted
+    by the decoder are dropped.  The ``*above`` interpretation row is
+    canonicalized immediately before the first barline.  Lyric-free
+    predictions have two spines, lyric models three.
     """
     pred_lines = pred_text.splitlines(keepends=True)
-    ref_lines = ref_text.splitlines()
-
-    def header_kind(token: str) -> str | None:
-        if token.startswith("*clef"):
-            return "clef"
-        if re.match(r"^\*k\[.*\]$", token):
-            return "key_signature"
-        if re.match(r"^\*[A-Ga-g][#n-]*:$", token):
-            return "tonic"
-        if token.startswith("*M"):
-            return "meter"
-        return None
-
-    ref_values = {}
-    for line in ref_lines:
-        columns = line.split("\t")
-        if len(columns) < 2 or columns[0].startswith(("!", "=")):
-            continue
-        kind = header_kind(columns[0])
-        if kind is not None:
-            ref_values[kind] = columns[0]
 
     first_bar = next(
         (
@@ -81,33 +115,43 @@ def match_headers(pred_text: str, ref_text: str) -> str:
         ),
         len(pred_lines),
     )
+    spine_count = next(
+        (
+            len(line.rstrip("\r\n").split("\t"))
+            for line in pred_lines
+            if line.startswith("**")
+        ),
+        3,
+    )
+    above_row = "\t".join(["*", "*above"] + ["*"] * (spine_count - 2))
     output = []
     inserted = False
+    seen_interpretations = set()
     for index, line in enumerate(pred_lines):
         content = line.rstrip("\r\n")
         ending = line[len(content) :]
         columns = content.split("\t")
-        if index < first_bar and len(columns) == 3 and not content.startswith("!"):
-            kern_token = columns[0]
-            kind = header_kind(kern_token)
-            if kind is not None:
-                cdata = ref_values.get(kind, kern_token)
-                if (
-                    re.match(r"^\*k\[.*\]$", cdata)
-                    or re.match(r"^\*[A-Ga-g][#n-]*:$", cdata)
-                    or cdata.startswith("*M")
-                ):
-                    cdata = "*"
-                columns[1] = cdata
-            if columns[0] == "*" and columns[1] == "*above":
+        if (
+            index < first_bar
+            and not content.startswith("!")
+            and columns[0].startswith("*")
+        ):
+            row_key = tuple(columns)
+            if row_key in seen_interpretations:
                 continue
-            line = "\t".join(columns) + ending
+            seen_interpretations.add(row_key)
+            if len(columns) >= 2 and not columns[0].startswith("**"):
+                if columns[0] == "*" and "*above" in columns[1:]:
+                    continue
+                for spine_index in range(1, len(columns)):
+                    columns[spine_index] = "*"
+                line = "\t".join(columns) + ending
         if index == first_bar and not inserted:
-            output.append("*\t*above\t*\n")
+            output.append(above_row + "\n")
             inserted = True
         output.append(line)
     if not inserted:
-        output.append("*\t*above\t*\n")
+        output.append(above_row + "\n")
     return "".join(output)
 
 
@@ -219,7 +263,7 @@ def main(
             with open(REF / f"{id}.krn", "r", encoding="utf-8", newline="") as f:
                 ref_text = f.read()
             if not ground_truth_kern:
-                pred_text = match_headers(pred_text, ref_text)
+                pred_text = match_headers(pred_text)
             pred_text = _normalize_predicted_lyrics(pred_text)
             if not ground_truth_kern:
                 pred_text = _normalize_predicted_chords(pred_text)
@@ -230,6 +274,10 @@ def main(
                     [ref], [pred], use_literal_delimiters=True
                 )
             )
+            hard_ed = _hard_ed_metrics([ref], [pred])
+            metrics["hard_sym-er"] = hard_ed["sym-er"]
+            metrics["hard_char-er"] = hard_ed["char-er"]
+            metrics.update(_hard_spine_ed_ers([ref], [pred]))
         except Exception as error:
             print(f"Error evaluating {id}: {error}")
             if skip_errors:
