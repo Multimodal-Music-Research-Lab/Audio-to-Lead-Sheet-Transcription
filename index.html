@@ -34,7 +34,7 @@
           <select id="model-select"></select>
           <label class="checkbox">
             <input id="show-errors" type="checkbox">
-            Show error rate
+            Show metrics values
           </label>
           <label class="checkbox">
             <input id="show-kern" type="checkbox">
@@ -43,13 +43,9 @@
         </div>
 
         <div id="metrics" hidden>
-          <h3 id="metrics-title">Error rates</h3>
+          <h3 id="metrics-title">Error rates for this sample.</h3>
           <table id="metrics-table">
-            <thead><tr>
-              <th>SymER</th><th>CharER</th>
-              <th>Melody SymER</th><th>Chords SymER</th><th>Lyrics SymER</th>
-              <th>Melody CharER</th><th>Chords CharER</th><th>Lyrics CharER</th>
-            </tr></thead>
+            <thead><tr></tr></thead>
             <tbody></tbody>
           </table>
           <p class="metrics-note" id="metrics-note"></p>

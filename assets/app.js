@@ -7,21 +7,21 @@ import createVerovioModule from "./verovio/verovio-module.mjs";
 
 const MODEL_GROUPS = [
   {
+    label: "Modular",
+    models: [
+      { id: "eoin-with-lyrics", label: "Cummins + Qwen3-ASR", prediction: true },
+      { id: "no-lyrics-qwen-lyrics", label: "Cummins retrained + Qwen3-ASR", prediction: true },
+      { id: "eoin-soulx-lyrics", label: "Cummins + SoulXSinger", prediction: true },
+      { id: "gt-with-qwen-lyrics", label: "GT + Qwen3-ASR lyrics", prediction: false },
+      { id: "gt-with-soulx-lyrics", label: "GT + SoulXSinger lyrics", prediction: false },
+    ],
+  },
+  {
     label: "End-to-End",
     models: [
       { id: "character", label: "Character Tokenization", prediction: true },
       { id: "syllable", label: "Word Tokenization", prediction: true },
       { id: "bpe", label: "BPE Tokenization", prediction: true },
-    ],
-  },
-  {
-    label: "Modular",
-    models: [
-      { id: "eoin-soulx-lyrics", label: "Cummins + SoulXSinger", prediction: true },
-      { id: "no-lyrics-qwen-lyrics", label: "Cummins retrained + Qwen3-ASR", prediction: true },
-      { id: "eoin-with-lyrics", label: "Cummins + Qwen3-ASR", prediction: true },
-      { id: "gt-with-qwen-lyrics", label: "GT + Qwen3-ASR lyrics", prediction: false },
-      { id: "gt-with-soulx-lyrics", label: "GT + SoulXSinger lyrics", prediction: false },
     ],
   },
 ];
@@ -31,22 +31,18 @@ const MODELS = MODEL_GROUPS.flatMap((group) => group.models);
 const REFERENCE_MODEL = { id: "gt", prediction: false };
 
 const METRIC_COLUMNS = [
-  ["sym-er", "SymER"],
-  ["hard_sym-er", "Hard SymER"],
-  ["char-er", "CharER"],
-  ["hard_char-er", "Hard CharER"],
-  ["melody_sym_er", "Melody SymER"],
-  ["melody_hard_sym_er", "Melody Hard SymER"],
-  ["chords_sym_er", "Chords SymER"],
-  ["chords_hard_sym_er", "Chords Hard SymER"],
-  ["lyrics_sym_er", "Lyrics SymER"],
-  ["lyrics_hard_sym_er", "Lyrics Hard SymER"],
-  ["melody_char_er", "Melody CharER"],
-  ["melody_hard_char_er", "Melody Hard CharER"],
-  ["chords_char_er", "Chords CharER"],
-  ["chords_hard_char_er", "Chords Hard CharER"],
-  ["lyrics_char_er", "Lyrics CharER"],
-  ["lyrics_hard_char_er", "Lyrics Hard CharER"],
+  ["sym-er", "SER"],
+  ["hard_char-er", "CER'"],
+  ["char-er", "CER"],
+  ["melody_sym_er", "Melody SER"],
+  ["melody_hard_char_er", "Melody CER'"],
+  ["melody_char_er", "Melody CER"],
+  ["chords_sym_er", "Chords SER"],
+  ["chords_hard_char_er", "Chords CER'"],
+  ["chords_char_er", "Chords CER"],
+  ["lyrics_sym_er", "Lyrics SER"],
+  ["lyrics_hard_char_er", "Lyrics CER'"],
+  ["lyrics_char_er", "Lyrics CER"],
 ];
 
 const SAMPLES_URL = "data/samples.json";
@@ -178,7 +174,8 @@ async function renderMetrics() {
   }
   panel.hidden = false;
   const model = MODELS.find((entry) => entry.id === state.modelId);
-  document.getElementById("metrics-title").textContent = `Error rates — ${model.label}`;
+  document.getElementById("metrics-title").textContent =
+    `Error rates for this sample. — ${model.label}`;
   const body = document.querySelector("#metrics-table tbody");
   const note = document.getElementById("metrics-note");
   body.innerHTML = "";
@@ -239,6 +236,13 @@ function populateModelSelect() {
 
 async function start() {
   populateModelSelect();
+
+  const headerRow = document.querySelector("#metrics-table thead tr");
+  for (const [, label] of METRIC_COLUMNS) {
+    const cell = document.createElement("th");
+    cell.textContent = label;
+    headerRow.appendChild(cell);
+  }
 
   const params = new URLSearchParams(window.location.search);
   const requestedModel = params.get("model");
