@@ -173,13 +173,6 @@ python metrics.py \
     --ref_kern_path ../data/kern
 ```
 
-Per-sample error rates (used by the demo website) are computed with:
-
-```bash
-python compute_per_sample_metrics.py \
-    --krn-dir ../krn --ref-dir ../data/kern --output ../metrics
-```
-
 
 ## Repository layout
 
@@ -187,11 +180,8 @@ python compute_per_sample_metrics.py \
 ├── code/                      # Inference, evaluation and alignment code
 │   ├── inference.py     #   greedy inference for the retrained models
 │   ├── metrics.py       #   per-file metric computation
-│   ├── compute_per_sample_metrics.py  # per-sample metrics used by the demo site
 │   ├── add_aligned_lyrics_to_kern.py  # append an aligned **text spine to Kern files
 │   ├── export_kern_timestamped_transcripts.py  # beat-aligned lyric cells from Kern files
-│   ├── convert_kern_to_mei.py #   Kern -> MEI for the demo website
-│   ├── make_samples_json.py   #   regenerate data/samples.json
 │   ├── my_utils/, networks/   #   model and tokeniser code
 │   ├── modular/               #   modular lyrics alignment (wav2vec2 & SoulXSinger)
 │   ├── tokenizers/gpt2/       #   vendored BPE tokeniser (offline-friendly)
