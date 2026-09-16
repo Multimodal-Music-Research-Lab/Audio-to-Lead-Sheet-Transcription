@@ -14,6 +14,8 @@
 [![Static Badge](https://img.shields.io/badge/code%20licence-MIT-green)](LICENSE)
 [![Static Badge](https://img.shields.io/badge/data%20licence-CC--BY--NC--SA%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Static Badge](https://img.shields.io/badge/demo-github_pages-%23825df5?logo=github)](https://multimodal-music-research-lab.github.io/Audio-to-Lead-Sheet-Transcription/)
+[![Static Badge](https://img.shields.io/badge/Dataset-A2LS-%23FFD21E?logo=huggingface)](https://huggingface.co/datasets/MMR-Lab/SheetSage-A2LS-subset100)
+[![Static Badge](https://img.shields.io/badge/Model-A2LS-%23FF9D00?logo=huggingface)](https://huggingface.co/MMR-Lab/SheetSage-A2LS-model)
 
 Public release of our audio-to-lead-sheet transcription research. From a complete popular music recording with a main vocal melody, the models transcribe a Humdrum `**kern` lead sheet with three spines:
 the sung melody (`**kern`), the chord progression (`**cdata`) and the lyrics
