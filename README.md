@@ -6,6 +6,7 @@
 > inspected without the audio. Data is released under
 > [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), code under
 > the [MIT licence](LICENSE).
+> **⚠️ The full dataset will be released upon acceptance, with YouTube links pointing to the audio recordings.**
 
 
 
@@ -24,6 +25,8 @@ retrained models, the modular lyrics-alignment code, a 100-sample test subset wi
 pre-computed [MuQ](https://github.com/tencent-ailab/MuQ) features, and a live
 [GitHub Pages demo](https://multimodal-music-research-lab.github.io/Audio-to-Lead-Sheet-Transcription/)
 that renders all generated scores in the browser.
+
+
 
 ```bibtex
 @online{dhoogeA2LS,
@@ -64,6 +67,8 @@ hf download MMR-Lab/SheetSage-A2LS --local-dir code/weights
 ```
 
 ## Data
+
+**Temporary release during the review process. The full dataset will be released upon acceptance.**
 
 `data/a2ls-100` is a Hugging Face dataset with 100 random samples of the test
 split (seed 42) and pre-computed MuQ features, one row per test sample:
