@@ -6,7 +6,7 @@
 > inspected without the audio. Data is released under
 > [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), code under
 > the [MIT licence](LICENSE).
-> **⚠️ The full dataset will be released upon acceptance, with YouTube links pointing to the audio recordings.**
+> **⚠️ The full dataset will be released upon paper publication, with YouTube links pointing to the audio recordings.**
 
 
 
@@ -68,7 +68,7 @@ hf download MMR-Lab/SheetSage-A2LS --local-dir code/weights
 
 ## Data
 
-**Temporary release during the review process. The full dataset will be released upon acceptance.**
+**Temporary release during the review process. The full dataset will be released upon paper publication.**
 
 `data/a2ls-100` is a Hugging Face dataset with 100 random samples of the test
 split (seed 42) and pre-computed MuQ features, one row per test sample:
