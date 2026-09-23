@@ -31,7 +31,7 @@ that renders all generated scores in the browser.
 ```bibtex
 @online{dhoogeA2LS,
   title = {Complete {{Audio-to-Lead-Sheet Transcription Using Modular}} and {{End-to-End Approaches}} on the {{New Sheetsage-A2LS Dataset}}},
-  author = {D’Hooge, Alexandre and Cummins, Eoin and Huang, Zhongyi and Wu, Zhiyong and Ju, Yaolong},
+  author = {D’Hooge, Alexandre and Cummins, Eoin and Huang, Zhongyi and Honeray Lee, Benjamin and Ju, Yaolong},
   date = {2026},
   pubstate = {prepublished},
   note = {Under review for ICASSP 2027}
